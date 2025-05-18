@@ -1,0 +1,42 @@
+{
+ "doctype": "DocType",
+ "name": "Payments Table",
+ "module": "Bank Deposit",
+ "istable": 1,
+ "fields": [
+  {
+   "fieldname": "payment_entry",
+   "fieldtype": "Link",
+   "label": "Payment Entry",
+   "options": "Payment Entry",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Data",
+   "label": "Customer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount",
+   "reqd": 1
+  },
+  {
+   "fieldname": "payment_method",
+   "fieldtype": "Data",
+   "label": "Payment Method"
+  },
+  {
+   "fieldname": "reference_no",
+   "fieldtype": "Data",
+   "label": "Reference No"
+  },
+  {
+   "fieldname": "payment_date",
+   "fieldtype": "Date",
+   "label": "Payment Date"
+  }
+ ]
+}
